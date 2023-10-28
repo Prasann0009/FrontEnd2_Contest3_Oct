@@ -1,0 +1,183 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#root
+{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+#top
+{
+    width: 98vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 10px;
+    margin-inline: 10px;
+}
+#top>.options{
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 4px 20px;
+    box-shadow: 2px 2px 6px lightgray;
+}
+#top>button,.options>button
+{
+    font-size: 16px !important;
+    cursor: pointer;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+.btn:hover,.active
+{
+   background-color: rgb(124, 121, 121);
+   cursor: pointer;
+   color: white;
+}
+
+#bottom{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+/* *
+{
+    background-color: #FFFFFF;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.header-menu
+{
+    height: 36px;
+    width: 36px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-menu:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.header-middle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px grey;
+}
+.header-lock-icon
+{
+    border-right: 1px solid grey;
+    padding: 10px;
+}
+.header-lock-icon:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.header-ToolIcons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-ToolIcons>.ToolIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-ToolIcons>.ToolIcons:hover
+{
+   background-color: lightgray;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.header-more-tools
+{
+    border-left: 1px solid grey;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-more-tools:hover
+{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.header-ToolIcons>.ToolIcons
+{
+   height: 36px;
+   width: 36px;
+   padding-top: 10px;
+   padding-inline: 5px;
+}
+.header-right
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-right>div
+{
+    margin-inline: 5px;
+    padding: 5px;
+}
+.live-collaboration
+{
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px grey;
+}
+.live-collaboration:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.library
+{
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.library:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    margin-bottom: 10px;
+}
+.zoom
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */

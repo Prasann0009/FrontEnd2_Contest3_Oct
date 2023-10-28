@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhiteBoard</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="root">
+   <div id="top">
+      <button class="btn material-icons">menu</button>
+      <div class="options">
+         <button class="btn material-symbols-outlined">lock</button>
+         <button class="btn material-symbols-outlined">pan_tool</button>
+         <button class="btn material-symbols-outlined">left_click</button>
+         <button class="btn material-symbols-outlined">crop_square</button>
+         <button class="btn material-symbols-outlined">line_end_diamond</button>
+         <button class="btn material-symbols-outlined">circle</button>
+         <button class="btn material-symbols-outlined">east</button>
+         <button class="btn material-symbols-outlined">horizontal_rule</button>
+         <button class="btn material-symbols-outlined" id="pencil">stylus</button>
+         <button class="btn material-symbols-outlined">text_format</button>
+         <button class="btn material-symbols-outlined">imagesmode</button>
+         <button class="btn material-symbols-outlined">ink_eraser</button>
+         <input type="color" id="color-picker"> 
+         <button class="btn material-symbols-outlined">category</button>
+         
+      </div>
+      <button class="btn material-icons">menu</button></div>
+   
+    <canvas id="canvas"></canvas>
+    <div id="bottom">
+      <div class="options">
+         <button class="btn material-symbols-outlined" id="undo">undo</button>
+         <button class="btn material-symbols-outlined" id="redo">redo</button>
+      </div>
+    </div>
+   </div>
+   
+    <script src="script.js"></script>
+    <script src="freehand.js"></script>
+    <script src="undoredo.js"></script>
+</body>
+</html>
